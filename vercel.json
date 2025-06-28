@@ -1,5 +1,18 @@
 {
-  "routes": [
-    { "src": "/.*", "dest": "/api/telosOrigin.js" }
-  ]
+	"version": 2,
+	"env": { },
+	"builds": [
+		{
+			"src": "/api/telosOrigin.js",
+			"use": "@vercel/node",
+			"config": { "includeFiles": ["./**"] }
+		}
+	],
+	"rewrites": [
+		{ "source": "/(.*)", "destination": "/" }
+	],
+	"installCommand": "npm install",
+	"routes": [
+		{ "src": "/.*", "dest": "/api/telosOrigin.js" }
+	]
 }
