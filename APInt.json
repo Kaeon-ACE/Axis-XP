@@ -1,0 +1,38 @@
+{
+	"packages": {
+		"telos-server": {
+			"utilities": {
+				"telosServer": {
+					"source": "telos-server/telosServer.js",
+					"properties": {
+						"type": "bus-module"
+					}
+				},
+				"telosRouter": {
+					"source": "telos-server/telosRouter.js",
+					"properties": {
+						"type": "bus-module"
+					}
+				},
+				"telosMiddleware": {
+					"source": "telos-server/telosMiddleware.js",
+					"properties": {
+						"type": "telos-server-middleware"
+					}
+				},
+				"telosExport": {
+					"source": "./serverBootsrap.js",
+					"properties": {
+						"type": "telos-export"
+					}
+				},
+				"telosSettings": {
+					"properties": {
+						"type": "telos-config",
+						"port": false
+					}
+				}
+			}
+		}
+	}
+}
