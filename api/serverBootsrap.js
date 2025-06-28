@@ -1,0 +1,1 @@
+module.exports = require("telos-server/telosServer").process;
