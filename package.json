@@ -1,18 +1,21 @@
 {
-  "name": "server",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "apint": "^1.0.1",
-    "bus-net": "^1.0.2",
-    "telos-server": "^1.0.6"
-  },
-  "devDependencies": {},
-  "description": ""
+	"name": "telos-server-app",
+	"version": "1.0.0",
+	"main": "telosOrigin.js",
+	"scripts": {
+		"start": "node telosOrigin.js"
+	},
+	"dependencies": {
+		"apint": "~1.0.0",
+		"bus-net": "~1.0.0",
+		"telos-server": "~1.0.0"
+	},
+	"engines": {
+		"node": ">=18"
+	},
+	"devDependencies": {},
+	"keywords": [],
+	"author": "",
+	"license": "Apache-2.0",
+	"description": ""
 }

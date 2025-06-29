@@ -19,18 +19,6 @@
 					"properties": {
 						"type": "telos-server-middleware"
 					}
-				},
-				"telosExport": {
-					"source": "./serverBootsrap.js",
-					"properties": {
-						"type": "telos-export"
-					}
-				},
-				"telosSettings": {
-					"properties": {
-						"type": "telos-config",
-						"port": false
-					}
 				}
 			}
 		}
